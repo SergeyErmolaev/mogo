@@ -1,0 +1,77 @@
+/* Vars:
+   ========================================================================== */
+
+// Font
+$mainFont                : 'Montserrat', 'Roboto', Arial, sans-serif;
+$regularFont             : 'Roboto', Arial, sans-serif;
+$regItalicFont           : 'Roboto-Italic',
+sans-serif;
+$cursiveFont             : 'Kaushan-Script',
+cursive;
+
+// Size
+$mainFontColor           : #333333;
+$minorFontColor          : #999999;
+$rareFontColor           : #cccccc;
+
+$text-size-xsm           : 12px;
+$text-size-msm           : 13px;
+$text-size-sm            : 14px;
+$text-size-md            : 15px;
+$text-size-xmd           : 18px;
+$text-size-slg           : 24px;
+$text-size-lg            : 30px;
+$text-size-sl            : 46px;
+$text-size-xl-media      : 52px;
+$text-size-xl            : 72px;
+$text-size-xxl-media     : 120px;
+$text-size-xxl           : 150px;
+
+$mainFontWeight          : 400;
+$mainLineHeight          : 1.6;
+$numberLineHeight        : 1;
+$formLineHeight          : 1.1;
+
+$desktopWidth            : 1280px;
+$smDesktopWidth          : 1024px;
+$tableWidth              : 768px;
+$smTableWidth            : 640px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;
+
+/*
+ All colors taken from:
+ https://github.com/vedees/uimini
+*/
+
+// Main color
+$default-color           : #ffffff;
+$default-overlay         : rgba(255, 255, 255, .85);
+$primary-color           : #444ce0;
+$success-color           : #95e1d3;
+$success-color-dark      : #74c7b8;
+$danger-color            : #f38181;
+$warning-color           : #fce38a;
+$light-color             : #999999;
+$purple-color            : #bc9cff;
+$gray-color              : #f8f8f8;
+
+// Darck-color kit
+$DrSh                    : #1f2041;
+$DrSh75                  : rgba(31, 32, 65, 0.75);
+$DrSh50                  : rgba(31, 32, 65, 0.5);
+$DrSh25                  : rgba(31, 32, 65, 0.25);
+$DrSh5                   : rgba(31, 32, 65, 0.05);
+
+// Neutral Color
+$neutral-primary         : #e5e5e5;
+$neutral-regular         : #e6e6e6;
+$neutral-secondary       : #909399;
+$neutral-placeholder     : #C0C4CC;
+
+// Border Color
+$border-base             : rgb(255, 255, 255);
+$border-base-opacity     : rgba(255, 255, 255, .5);
+$border-light            : rgb(181, 234, 224);
+$border-lighter          : #cccccc;
+$border-lightex          : #95e1d3;

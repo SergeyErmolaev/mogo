@@ -1,0 +1,46 @@
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/reset";
+
+// .container{
+//   width: 100%;
+//   max-width: 1200px;
+//   margin: 0 auto;
+// }
+@import "modules/page.scss";
+@import "modules/container.scss";
+@import "modules/header.scss";
+@import "modules/navigation.scss";
+@import "modules/intro.scss";
+@import "modules/button.scss";
+@import "modules/slider.scss";
+@import "modules/section-story.scss";
+@import "modules/about-card.scss";
+@import "modules/statistick.scss";
+@import "modules/services.scss";
+@import "modules/device.scss";
+@import "modules/service.scss";
+@import "modules/we-do-accordeon.scss";
+@import "modules/accordion.scss";
+@import "modules/quote-slider.scss";
+// @import "modules/quote-slider-mine.scss";
+@import "modules/our-team.scss";
+@import "modules/social.scss";
+@import "modules/logos.scss";
+@import "modules/portfolio-works.scss";
+@import "modules/testimonial.scss";
+@import "modules/happy-clients.scss";
+@import "modules/blog.scss";
+@import "modules/map.scss";
+@import "modules/footer.scss";
+@import "modules/footer-subscribe.scss";
+@import "modules/footer-blogs.scss";
+@import "modules/footer-instagram.scss";
+
+//elements
+@import "modules/border.scss";
+
+// media
+@import "utils/media.scss";

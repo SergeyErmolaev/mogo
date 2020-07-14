@@ -1,0 +1,57 @@
+.section--quote {
+  background-color: $gray-color;
+}
+
+.reviews-quote{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+}
+
+.reviews__item-photo {
+  position: relative;
+  grid-column: 1/2;
+
+  width: 145px;
+  height: 145px;
+}
+
+.reviews__item-photo:hover {
+  background: linear-gradient(to top, rgba(251, 227, 137, .9), rgba(243, 129, 129, .9));
+}
+
+.reviews__photo-speech {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
+}
+
+.reviews__text-quote {
+  grid-column: 2/3;
+  
+  padding-left: 60px;
+  
+  font-family: $regItalicFont;
+  font-size: $text-size-slg;
+  color: $minorFontColor;
+}
+
+.reviews__author-quote {
+  grid-column: 2/3;
+  
+  font-family: $cursiveFont;
+  font-size: $text-size-slg;
+  color: $mainFontColor;
+}
+
+.reviews__author-quote:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 3px;
+  background-color: $danger-color;
+  margin-right: 10px;
+}

@@ -1,0 +1,21 @@
+.btn{
+  display: inline-block;
+  vertical-align: top;
+  padding: 16px 32px 14px;
+
+  border: 2px solid $default-color;
+
+  text-transform: uppercase;
+  color: $default-color;
+  font-family: $mainFont;
+  font-weight: bold;
+  font-size: $text-size-sm;
+
+  transition: background-color .1s linear;
+  transition: color .1s linear;
+}
+
+.btn:hover {
+  color: $warning-color;
+  background-color: $default-color;
+}

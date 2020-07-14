@@ -1,0 +1,49 @@
+.subscribe {
+  width: 100%;
+  max-width: 380px;
+}
+
+.subscribe__input {
+  width: 60%;
+  height: 40px;
+  padding: 12px;
+
+  font-family: $regItalicFont;
+  color: $mainFontColor;
+  line-height: $formLineHeight;
+
+  background-color: $default-color;
+  border: 1px solid $neutral-primary;
+}
+
+.subscribe__input::placeholder {
+  color: $rareFontColor;
+}
+
+.subscribe__input:focus{
+  border-color: $success-color;
+}
+
+.subscribe__btn {
+  width: 40%;
+  height: 40px;
+
+  padding: 12px 30px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: $text-size-sm;
+  line-height: $formLineHeight;
+
+  background-color: $success-color;
+  color: $default-color;
+  cursor: pointer;
+  transition: background-color .2s linear,
+  border .2s linear;
+  border: 1px solid $success-color;
+}
+
+.subscribe__btn:hover {
+  background-color: $success-color-dark;
+  border: 1px solid $success-color-dark;
+}

@@ -1,0 +1,36 @@
+.statistics{
+  background-color: $success-color;
+}
+
+.stat__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+}
+
+.stat__item {
+  flex: 1 1 0;
+  padding: 70px 25px;
+
+  border-left: 1px solid $border-light;
+  &:last-child {
+    border-right: 1px solid $border-light;
+  }
+
+  text-align: center;
+  color: $default-color;
+}
+
+.stat__count{
+  margin-bottom: 10px;
+
+  font-size: $text-size-xl;
+  font-weight: bold;
+  line-height: $numberLineHeight;
+}
+
+.stat__text{
+  font-size: $text-size-sm;
+  text-transform: uppercase;
+}

@@ -1,0 +1,17 @@
+.logos{
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -15px;
+}
+
+.logos__item {
+  padding: 0 15px;
+}
+
+// .logos__img {
+//   display: block;
+//   max-width: 100%;
+//   height: auto;
+// } // I have it in reset and normalaiz

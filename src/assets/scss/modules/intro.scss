@@ -1,0 +1,48 @@
+.intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  min-height: 820px;
+  // background: linear-gradient(to bottom, rgba (251, 227, 137, 0.9) 0%, rgba (243, 129, 129, 0.9) 100%);
+  background: linear-gradient(to top, rgba(251, 227, 137, .9), rgba(243, 129, 129, .9)),
+  url(/assets/img/eagle.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro-inner{
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  
+  text-align: center;
+  // padding-bottom: 156px;
+}
+
+.intro__uptitle{
+  padding-bottom: 20px;
+
+  font-size: $text-size-xl;
+  color: $default-color;
+  font-family: $cursiveFont;
+}
+
+.intro__title{
+  font-size: $text-size-xxl;
+  color: $default-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: $numberLineHeight;
+}
+
+.intro__title:after {
+  content: "";
+  display: block;
+  margin: 70px auto 49px;
+  width: 60px;
+  height: 3px;
+  background-color: $default-color;
+}

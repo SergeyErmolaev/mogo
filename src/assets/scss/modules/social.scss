@@ -1,0 +1,28 @@
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  width: 55px;
+  height: 55px;
+  padding: 12px 10px;
+
+  font-size: $text-size-lg;
+  line-height: $numberLineHeight;
+
+  background-color: $warning-color;
+  border-right: 1px solid $danger-color;
+  color: $danger-color;
+
+  transition: background-color .1s linear, color .1s linear;
+}
+
+.social__item--last-item{
+  border-right: 0;
+}
+
+.social__item:hover {
+  color: $default-color;
+  background-color: $danger-color;
+}

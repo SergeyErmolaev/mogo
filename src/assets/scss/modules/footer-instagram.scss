@@ -1,0 +1,21 @@
+.instagram {
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+}
+
+.instagram__item {
+  width: 33%;
+  border-bottom: 1px solid $default-color;
+  border-right: 1px solid $default-color;
+}
+
+.instagram__outer{
+  padding-top: 15px;
+
+  a {
+    font-size: $text-size-msm;
+    font-family: $regItalicFont;
+    color: $mainFontColor;
+  }
+}

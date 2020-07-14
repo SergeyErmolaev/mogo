@@ -1,0 +1,60 @@
+.section--clients{
+  margin-bottom: 40px;
+  padding-bottom: 0;
+
+  background: linear-gradient(to top, $default-overlay, $default-overlay),
+  url(/assets/img/Happy-clients/rocks.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 70px;
+}
+
+.clients__item {
+  width: 50%;
+  padding: 0 45px 0 175px;
+  position: relative;
+
+  margin-bottom: 60px;
+}
+
+.clients__photo {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  z-index: 1;
+
+  border-radius: 50%;
+}
+
+.clients__name {
+  margin-bottom: 5px;
+
+  font-size: $text-size-sm;
+  text-transform: uppercase;
+}
+
+.clients__prof {
+  font-family: $regItalicFont;
+}
+
+.clients__text {
+  font-family: $regularFont;
+  color: $minorFontColor;
+}
+
+.clients__text:before {
+  content: "";
+  display: block;
+  // vertical-align: middle;
+  width: 60px;
+  height: 3px;
+  background-color: $danger-color;
+  margin: 15px 0;
+}

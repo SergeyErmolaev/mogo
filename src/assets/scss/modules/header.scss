@@ -1,0 +1,39 @@
+.header{
+  width: 100%;
+  padding-top: 30px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  padding: 10px 0;
+
+  background-color: $danger-color;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+  transform: translate3d(0, 0, 0);
+}
+
+.header.active {
+  background-color: $danger-color;
+}
+
+.header__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo{
+  font-size: $text-size-lg;
+  font-weight: bold;
+  color:$default-color;
+}
